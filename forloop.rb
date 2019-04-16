@@ -11,7 +11,6 @@ end
 #names = ['Foo', 'Bar', 'Baz']
 names = ["Foo", "Bar", "Baz"]
 
-
 names.each { |item|
     puts item
 }
@@ -33,3 +32,11 @@ puts
 6.times do|index|
   puts index
 end
+
+
+=begin
+
+multiline comments
+# single line comment
+
+=end
