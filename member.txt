@@ -1,5 +1,7 @@
-anu, learner
-irin, teacher
+NNEW learner
+NEWLO teacher
 mahin, student
 jebin, officer
 suchi, engineer
+Toma, Teacher
+Toma, Teacher
