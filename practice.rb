@@ -113,8 +113,8 @@
 #   end
 #===================================
 #17
-puts "Enter a num: "
-n = gets.chomp().to_f
+# puts "Enter a num: "
+# n = gets.chomp().to_f
 
 # if n <= 33
 #   result = 33 - n
@@ -127,6 +127,94 @@ n = gets.chomp().to_f
 # end
 #--------OR--------------
 
-puts n <= 33 ? (33 - n) : ((n - 33).abs * 2)
+# puts n <= 33 ? (33 - n) : ((n - 33).abs * 2)
 #==============================================
 #18
+# puts "Enter 1st num: "
+# a = gets.chomp().to_i
+# puts "Enter 2nd num: "
+# b = gets.chomp().to_i
+#
+# puts "Maximum num: " + (a > b ? a : b).to_s
+#==============================================
+#19
+
+# puts "Enter 1st num: "
+# a = gets.chomp().to_i
+# puts "Enter 2nd num: "
+# b = gets.chomp().to_i
+#
+# puts a == 20 || b == 20 ? true : a + b
+#==========================================
+#20
+# puts "Enter 1st num: "
+# a = gets.chomp().to_i
+# puts "Enter 2nd num: "
+# b = gets.chomp().to_i
+# puts "Enter 3rd num: "
+# c = gets.chomp().to_i
+#
+# puts a > b && a > c ? a : b > a && b > c ? b : c
+#==================================================
+#21
+# def near_hundred(n)
+#     (n-100).abs <= 10 || (n-200).abs <= 10
+# end
+#
+# print near_hundred(10),"\n"
+# print near_hundred(110),"\n"
+# print near_hundred(90)
+#==============================================
+#22
+# puts "Enter 1st num: "
+# a = gets.chomp().to_i
+# puts "Enter 2nd num: "
+# b = gets.chomp().to_i
+#
+# puts a == b ? ((a + b) * 2) : (a + b)
+#================================================
+#23
+# 9.times do
+# puts "Ruby exercises"
+# end
+# =============================================
+#24
+# puts "Enter a string: "
+# a = gets.chomp()
+#
+# puts a.length() >= 1 ? a[-1] + a[0..] + a[-1] : false
+#====================================================
+#25
+# puts "Enter 1st temp: "
+# a = gets.chomp().to_f
+# puts "Enter 2nd temp: "
+# b = gets.chomp().to_f
+#
+# puts (a < 0 && b > 100) || (b < 0 && a > 100) ? true : false
+#=================================================================
+#26
+# a = 33
+# while a < 41
+#   puts a += 1
+# end
+#-------OR-------------
+# 34.upto 42 do |x|
+#   puts "#{x}"
+# end
+#================================
+#27
+# 2.step 10, 2 do |x|
+#   puts x
+# end
+#============================
+#28
+# 9.step 1, -2 do |x|
+#   puts x
+# end
+#===========================
+# a = ["ruby", 2.3, Time.now]
+# puts a
+arr = ["ruby", 2.3, Time.now]
+for element in arr
+  puts element
+end
