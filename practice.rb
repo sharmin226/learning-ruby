@@ -212,9 +212,86 @@
 #   puts x
 # end
 #===========================
-# a = ["ruby", 2.3, Time.now]
+# 29
+#a = ["ruby", 2.3, Time.now]
 # puts a
-arr = ["ruby", 2.3, Time.now]
-for element in arr
-  puts element
-end
+#-------OR--------------------
+# arr = ["ruby", 2.3, Time.now]
+# for element in arr
+#   puts element
+# end
+#=================================
+#30
+# puts "Enter 1st num: "
+# a = gets.chomp().to_i.abs
+#
+# puts "Enter 2nd num: "
+# b = gets.chomp().to_i.abs
+#
+# puts a.to_s[-1].to_i == b.to_s[-1].to_i ? true : false
+#===========================================================
+#31
+# a = { :literature => 74, :Science => 89, :Math => 91 }
+# total = 0
+# a.each {|key, value|
+#   total += value
+# }
+# puts "Total marks: " + total.to_s
+#=====================================================
+#32
+# 20.times do
+#   print "#"
+# end
+# puts
+# puts "@"*20
+#======================
+#33
+# def leap_year(year)
+#   if year % 400 == 0
+#     puts year.to_s + " is leap year"
+#   elsif year % 4 == 0 && year % 100 != 0
+#     puts year.to_s + " is leap year"
+#   else puts year.to_s + " is not leap year"
+#   end
+# end
+# leap_year(1500)
+#===========================================
+#34
+
+# puts "enter a string: "
+# txt = gets.chomp()
+# if (txt[-4..-1] == "java")
+#   puts txt
+# else puts "no java"
+# end
+#==============================
+#35
+# puts "enter a string: "
+# str = gets.chomp()
+# puts str[0] == 'p' && str[1] == 's' ? "ps" : " "
+#====================================================
+#36
+# puts "enter 1st integer "
+# a = gets.chomp().to_i
+# puts "enter 2nd integer: "
+# b = gets.chomp().to_i
+#
+# if ((10-a).abs < (10-b).abs)
+#   puts a
+# elsif a == b
+#   puts 0
+# else puts b
+# end
+#============================
+#37
+# puts "enter 1st integer "
+# a = gets.chomp().to_i
+# puts "enter 2nd integer: "
+# b = gets.chomp().to_i
+#
+# if (((10..20).include? a) && ((10..20).include? b)) || (((20..30).include? a) && ((20..30).include? b))
+#   puts "true"
+# else puts "false"
+# end
+#============================================
+#
