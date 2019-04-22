@@ -294,4 +294,118 @@
 # else puts "false"
 # end
 #============================================
+#38
+# puts "enter 1st integer "
+# a = gets.chomp().to_i.abs
+# puts "enter 2nd integer: "
+# b = gets.chomp().to_i.abs
 #
+# if (((20..30).include? a) && ((20..30).include? b) && (a > b))
+#   puts a
+# elsif (((20..30).include? a) && ((20..30).include? b) && (b > a))
+#   puts b
+# else puts 0
+# end
+#==================================
+#39
+# puts "enter a string: "
+# str = gets.chomp()
+#
+# count = 0
+#
+# str.length.times do |index|
+#   if str[index] == 'i'
+#     count += 1
+#   end
+# end
+# puts count != 0 ? "true" : false
+#=====================================
+#40
+# puts "enter 1st integer: "
+# a = gets.chomp()
+# puts "enter 2nd integer: "
+# b = gets.chomp()
+#
+# puts a[-1] == b[-1] ? true : false
+#=====================================
+#41
+# a = [1, 2, 9, 67]
+# count = 0
+# a.length.times do |index|
+#   if a[index] == 5
+#     count += 1
+#   end
+# end
+# puts count
+#===================================
+#43 (problem)
+# a = [23, 10, 20, 30, 67]
+# b = [1, 20, 30, 4]
+# c = [10, 20, 30, 98]
+# count = 0
+# c.length.times do |index|
+#   if c[index..index+2] == [10, 20, 30]
+#     return true
+#   end
+#     index += 1
+# end
+# return false
+#======OR=================
+# def array102030(nums)
+#     idx = 0
+#     while idx < nums.length-2
+#         if nums[idx..idx+2] == [10,20,30]
+#             return true
+#         end
+#         idx += 1
+#     end
+#     return false
+# end
+# print array102030([10, 20, 30, 40, 50]),"\n"
+# print array102030([0, 10, 20, 30, 90]),"\n"
+# print array102030([10, 20, 50, 30, 70])
+#===============================================
+#45
+# def chk(a,b)
+#   return  a == 11 || b == 11 || a + b == 11 || a - b.abs == 11
+# end
+# puts chk(1, 11)
+# puts chk(8, 3)
+# puts chk(12, 1)
+# puts chk(12, 31)
+#=======================================
+#46
+#2 of multiple of 10
+#==============================
+#49
+# def check(a,b)
+#   if a == b
+#     return 0
+#   end
+#   if a%5 == b%5
+#     return a < b ? a : b
+#   end
+#   return a > b ? a : b
+# end
+# puts check(9, 12)
+# puts check(110, 200)
+# puts check(10, 10)
+#================================
+#50
+# def range(a,b)
+#   if ((10..99).include? a) && ((10..99).include? b)
+#     a_l = a%10
+#     b_l = b%10
+#     a_f = a/10
+#     b_f = b/10
+#     return (a == b) || (a_f == b_f) || (a_f == b_l) || (b_f == a_f) ||(b_f == a_l)
+#
+#   else return false
+#   end
+# end
+# puts range(9, 9)
+# puts range(20, 91)
+# puts range(15, 51)
+# puts range(12, 23)
+#===============================
+#52
