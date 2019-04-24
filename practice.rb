@@ -409,3 +409,39 @@
 # puts range(12, 23)
 #===============================
 #52
+# def sum(a,b,c)
+#     if a == b && b == c
+#       return 0
+#     elsif a == b
+#       return c
+#     elsif a == c
+#       return b
+#     elsif c == b
+#       return a
+#     else return a+b+c
+#
+#     end
+# end
+#
+# puts sum(5,5,5)
+# puts sum(5,2,2)
+# puts sum(1,5,2)
+# puts sum(15,5,2)
+#===========================
+#53
+# def sum(a,b,c)
+#     if a == 17
+#       return 0
+#     if b == 17
+#       return a+c
+#     if c == 17
+#       return b+a
+#     else return a+b+c
+#
+#     end
+# end
+#
+# puts sum(5,5,5)
+# puts sum(5,2,2)
+# puts sum(1,5,2)
+#===========================
