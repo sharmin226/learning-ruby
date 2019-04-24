@@ -122,4 +122,73 @@
 # print chk([3,7,1]),"\n"
 # print chk([3,7,1,2]),"\n"
 #============================
+#14
+# def sum(arr)
+#   if arr.length >= 2
+#     puts arr[0]+arr[1]
+#   elsif arr.length < 2
+#     puts arr[0]
+#   else
+#     return 0
+#   end
+# end
+# sum([1,2,3])
+# sum ([4,2,3])
+# sum ([4])
+# sum ([])
+#=====================
+#15(problem in # QUESTION: )
+# def check_array(nums)
+#     if(nums.length >= 2)
+# 		return (nums[0] + nums[1])
+# 	end
+# 	if(nums.length == 1)
+# 		return nums[0];
+# 	end
+# 	return 0;
 #
+# end
+# print check_array([1, 2, 5]),"\n"
+# print check_array([4, 2, 3]),"\n"
+# print check_array([1])
+#=============================
+#16
+# a = [1,2,[3,[4,5]],[6,[7],8]]
+# print a,"\n"
+# print a.flatten,"\n"#{concat all nested array}
+#=================================
+#17
+# def chk(arr)
+#   if arr.length == 2
+#     puts arr[0] == 4 || arr[0] == 7 ? true : false
+#   end
+# end
+# chk([4,9])
+# chk([7,9])
+# chk([1,9])
+#======================
+#18
+# def check_array(nums)
+#    if(nums[0] == 6 || nums[0] == 9)
+# 		return false
+# 	 end
+#
+#    return !(nums[1] == 6 || nums[1] == 9)
+# end
+#
+# print check_array([1, 4]),"\n"
+# print check_array([6, 5]),"\n"
+# print check_array([5, 9]),"\n"
+#============================
+#19
+# def has(arr)
+#   if arr.length == 2
+#     puts (arr[0]==3 && arr[1]==3) || (arr[0]==5 && arr[1]==5) ? true : false
+#   end
+#   return arr
+# end
+# has([3,3])
+# has([5,5])
+# has([1,2])
+#================
+#20
